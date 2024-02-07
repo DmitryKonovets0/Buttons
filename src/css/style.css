@@ -1,3 +1,24 @@
 body {
-  background-color: red;
+  width: 50vh;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gradient {
+  width: 274px;
+  height: 64px;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #000, #000), linear-gradient(to top, #0744C2 2%, #0ef0a8 100%);
+  border-image-slice: 1;
+  border: double 1px transparent;
+  border-radius: 60px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
